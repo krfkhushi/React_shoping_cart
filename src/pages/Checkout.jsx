@@ -35,7 +35,7 @@ const Checkout = () => {
       <div className='container mx-auto px-4 md:px-8 pt-8'>
         <h2 className='text-5xl font-extrabold text-white mb-10 tracking-tight '>Finalize Order</h2>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-10'>
-          <div className='w-[950px] lg:col-span-2 p-8 bg-gray-900 rounded-2xl shadow-2xl border border-gray-800'>
+          <div className='lg:col-span-2 p-8 bg-gray-900 rounded-2xl shadow-2xl border border-gray-800'>
             <h3 className='text-3xl font-bold text-orange-400 mb-6 flex items-center space-x-3 border-b border-gray-700 pb-4'>
               <MapPin className='w-7 h-7 text-orange-400' />
               <span>Shipping Information</span>
@@ -63,7 +63,7 @@ const Checkout = () => {
 
           {/* order Summary chackout */}
 
-          <div className='w-[380px] lg:col-span-1 p-8 bg-gray-900 rounded-2xl shadow-2xl border-1-4 sticky top-22 h-fit border border-gray-800'>
+          <div className='g:col-span-1 p-8 bg-gray-900 rounded-2xl shadow-2xl border-1-4 sticky top-22 h-fit border border-gray-800'>
             <h3 className='text-3xl font-bold text-white mb-5 border-b border-y-gray-700 pb-3 flex items-center space-x-2'>
               <Package className='w-6 h-6 text-orange-400 ' />
               <span>Summary</span>

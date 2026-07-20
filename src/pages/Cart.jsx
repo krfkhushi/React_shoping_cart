@@ -8,7 +8,7 @@ const Cart = () => {
   const { cart, cartTotal, CartCount } = useCart();
   return (
     <>
-      <div className='container mx-auto px-4 md:px-8 pt-8 w-[1450px]'>
+      <div className='container mx-auto px-4 md:px-8 pt-8'>
         <div className="flex items-center mb-10">
           <Link to={'/'} className='flex items-center text-gray-400 hover:text-orange-400 transition duration-150 font-semibold text-lg'>
             <ChevronLeft className='w-6 h-6 mr-1' />
